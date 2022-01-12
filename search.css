@@ -1,0 +1,33 @@
+#myUL {
+  list-style-type: none !important;
+}
+#itemsFilter {
+  padding: 1vw 0vw;
+}
+
+.item {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  width: 40vw;
+}
+a {
+  display: flex;
+  padding: 5px 1vw;
+  align-items: center;
+}
+
+.filteredImg {
+  padding: 0vw 1vw;
+  max-height: 100px;
+}
+
+.itemName {
+  padding: 0vw 15px;
+  display: inline-flex;
+}
+
+.itemPrice {
+  padding: 0vw 1vw;
+}
